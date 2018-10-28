@@ -10,5 +10,6 @@ class ChattyStudent < Student
     10.times do
       "Pick me!"
     end
+  end
 
 end
