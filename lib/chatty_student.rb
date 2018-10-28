@@ -7,12 +7,9 @@ class ChattyStudent < Student
 
   def raise_hand
     super
-    counter = 0
-    loop do
+      10.times do
     puts "Pick me!"
-    counter += 1
-  when counter = 10
-    break
+
     end
   end
 
